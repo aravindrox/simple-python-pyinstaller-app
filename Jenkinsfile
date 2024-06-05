@@ -8,9 +8,4 @@ pipeline {
                 }
             }
         }
-         stage("test") {
-            steps {
-               echo 'Tesing the application'
-                }
-         }
         }
